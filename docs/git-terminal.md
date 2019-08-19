@@ -88,4 +88,19 @@ assets                index.html   main-es5.8ebc167ce6dbe8f0ae58.js     runtime-
 
 In other words when creating a new branch it will make a duplicate of the current branch under the new name.
 
-##
+## Add The New Branch To The Repository
+
+To add the branch to the repository use `git push`.
+
+```bash
+[coen@ArchLaptop git-github-dojo]$ git push origin a-new-gh-branch
+Username for 'https://github.com': coenraadhuman
+Password for 'https://coenraadhuman@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'a-new-gh-branch' on GitHub by visiting:
+remote:      https://github.com/coenraadhuman/git-github-dojo/pull/new/a-new-gh-branch
+remote: 
+To https://github.com/coenraadhuman/git-github-dojo.git
+ * [new branch]      a-new-gh-branch -> a-new-gh-branch
+```
