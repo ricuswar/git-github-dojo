@@ -1,5 +1,5 @@
 # Git and Github Dojo
-This is a workshop for NWU students on Git and Github, presented by [Coenraad Human](https://github.com/coenraadhuman) and [Morne Venter](https://github.com/MorneVenter).
+This is a workshop for NWU students on the basics of Git and Github, presented by [Coenraad Human](https://github.com/coenraadhuman) and [Morne Venter](https://github.com/MorneVenter).
 
 # Workshop Presentation
 The can be found in the master branch, slides.pdf
