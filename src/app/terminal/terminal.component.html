@@ -1,0 +1,17 @@
+<div class="term">
+    <div class="term-header">
+        <button class="term-header-button term-header-button-close"></button>
+        <button class="term-header-button term-header-button-minimize"></button>
+        <button class="term-header-button term-header-button-expand"></button>
+        <div class="term-header-title">
+            <span>gitdojo@this-cool-workshop: ~ git</span>
+        </div>
+    </div>
+    <div class="term-content" *ngFor="let row of myContent">
+        <span class="term-content-arrow">root@coolterminal:~$</span><span class="term-content-tilde">{{row}}</span>
+    </div>
+
+    <div class="term-content">
+        <span class="term-content-arrow">root@coolterminal:~$</span><span class="term-content-tilde"></span>    <span class="term-content-caret"></span>
+    </div>
+</div>
