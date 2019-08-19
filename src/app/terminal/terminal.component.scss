@@ -8,8 +8,8 @@ body {
 }
 
 .term {
-  width: 50vw;
-  height: 30vw;
+  width: 60vw;
+  height: 20vw;
   border-radius: 7px;
   background: #000;
   display: flex;
@@ -22,6 +22,15 @@ body {
   box-shadow: 13px 13px 29px -5px rgba(0,0,0,0.65);
   transition: 0.3s;
 
+  @media only screen and (max-width: 1000px) {
+    height: 35vw;
+  }
+  
+  @media only screen and (max-width: 415px) {
+    height: 85vw;
+    width: 90vw;
+  }
+  
   &-header {
     display: flex;
     padding: 5px;
@@ -74,7 +83,7 @@ body {
   }
 
   &-content {
-    overflow-y: scroll;
+    overflow-y: hidden;
     padding: 10px;
     font-size: 14px;
     color: lightgray;
@@ -111,3 +120,5 @@ body {
     }
   }
 }
+
+

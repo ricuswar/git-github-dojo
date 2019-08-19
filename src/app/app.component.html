@@ -60,15 +60,11 @@
 <h1 class="text-center">Add Changes From Local Branch Copy to Repository</h1>
 <app-terminal [myContent]="[
 'git checkout master',
-'git pull',
-'ls',
-'echo #  Git is amazing! >> README.md',
+'echo your_cool_message >> README.md',
 'cat README.md ',
 'git add .',
 'git commit -m Git is awesome!',
-'git push origin',
-'[enter username]',
-'[enter password]'
+'git push origin'
 ]">
 </app-terminal>
 <br><hr>
