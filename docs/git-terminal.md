@@ -138,6 +138,83 @@ Fast-forward
 
 We need more than one command to do this, namely `git add`, `git commit` and finally `git commit`.
 
+* Lets go back to master:
 ```bash
+coen@ArchLaptop git-github-dojo]$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+```
 
+* Make sure the branch has the latest commit:
+```bash
+[coen@ArchLaptop git-github-dojo]$ git pull
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 28 (delta 9), reused 15 (delta 1), pack-reused 0
+Unpacking objects: 100% (28/28), done.
+From https://github.com/coenraadhuman/git-github-dojo
+   33b9266..563f50f  master                   -> origin/master
+   df9b3d4..fee81af  gh-pages_angular-example -> origin/gh-pages_angular-example
+Updating 33b9266..563f50f
+Fast-forward
+ docs/git-terminal.md | 106 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ docs/gitkraken.md    |   1 +
+ 2 files changed, 107 insertions(+)
+ create mode 100644 docs/git-terminal.md
+ create mode 100644 docs/gitkraken.md
+```
+
+* Add a nice comment to the README.md:
+```bash
+[coen@ArchLaptop git-github-dojo]$ ls
+CODEOWNERS  docs  LICENSE  README.md
+[coen@ArchLaptop git-github-dojo]$ echo "# Git is amazing!" >> README.md
+[coen@ArchLaptop git-github-dojo]$ cat README.md 
+# Git and Github Dojo
+This is a workshop for NWU students on Git and Github, presented by Coenraad Human and Morne Venter.
+
+# Workshop Presentation
+The can be found in the master branch, slides.pdf
+
+# Resources
+* Git terms, [link](https://linuxacademy.com/blog/linux/git-terms-explained/).
+* Github permission levels for a user account repository, [link](https://help.github.com/en/articles/permission-levels-for-a-user-account-repository).
+* Github guides, [link](https://guides.github.com/).
+* Gitkraken git client, [link](https://www.gitkraken.com/git-client).
+# Git is amazing!
+```
+
+* Stage the new changes:
+```bash
+[coen@ArchLaptop git-github-dojo]$ git add .
+```
+
+* Check this files staged for the commit:
+```bash
+[coen@ArchLaptop git-github-dojo]$ git diff --name-only --cached
+README.md
+```
+
+* Commit the staged changed files:
+```bash
+[coen@ArchLaptop git-github-dojo]$ git commit -m "Git is awesome!"
+[master 76d10fa] Git is awesome!
+ 1 file changed, 1 insertion(+)
+```
+
+* And finally push it to origin:
+```bash
+[coen@ArchLaptop git-github-dojo]$ git push origin
+Username for 'https://github.com': coenraadhuman
+Password for 'https://coenraadhuman@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/coenraadhuman/git-github-dojo.git
+   ed3bebf..76d10fa  master -> master
 ```
