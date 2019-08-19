@@ -45,6 +45,8 @@ Updates a remote branch with the commits made to the current branch. You are lit
 ## Rebase
 When rebasing a git commit, you can split the commit, move it, squash it if unwanted, or effectively combine two branches that have diverged from one another.
 
+![rebase-image-from-atlassian](https://wac-cdn.atlassian.com/dam/jcr:e4a40899-636b-4988-9774-eaa8a440575b/02.svg?cdnVersion=521)
+
 ## Remote
 A copy of the original branch. When you clone a branch, that new branch is a remote, or clone. Remotes can talk to the origin branch, as well as other remotes for the repository, to make communication between working branches easier.
 
