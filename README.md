@@ -6,6 +6,6 @@ The can be found in the master branch, slides.pdf
 
 # Resources
 * Git Basics:
-* Github:
+* Github permission levels for a user account repository, [link](https://help.github.com/en/articles/permission-levels-for-a-user-account-repository).
 * Git:
 * Gitkraken:
