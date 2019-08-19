@@ -1,5 +1,5 @@
 # Git and Github Dojo
-This is a workshop for NWU students on Git and Github, presented by Coenraad Human and Morne Venter.
+This is a workshop for NWU students on Git and Github, presented by [Coenraad Human](https://github.com/coenraadhuman) and [Morne Venter](https://github.com/MorneVenter).
 
 # Workshop Presentation
 The can be found in the master branch, slides.pdf
@@ -12,6 +12,8 @@ The can be found in the master branch, slides.pdf
 ## Github
 * Github permission levels for a user account repository, [link](https://help.github.com/en/articles/permission-levels-for-a-user-account-repository).
 * Github guides, [link](https://guides.github.com/).
+* Github markdown, [link](https://guides.github.com/features/mastering-markdown/).
+* Github markdown emoji cheat sheet, [link](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 ## Gitkraken
 * Gitkraken git client, [link](https://www.gitkraken.com/git-client).
