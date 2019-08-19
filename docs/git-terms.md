@@ -19,7 +19,7 @@ A clone is a copy of a repository or the action of copying a repository. When cl
 By performing a Git fetch, you are downloading and copying that branch’s files to your workstation. Multiple branches can be fetched at once, and you can rename the branches when running the command to suit your needs.
 
 ## Fork
-Creates a copy of a repository.
+Creates a copy of a repository and associates it with your account.
 
 ## HEAD
 HEAD is a reference variable used to denote the most current commit of the repository in which you are working. When you add a new commit, HEAD will then become that new commit.
@@ -36,7 +36,7 @@ Taking the changes from one branch and adding them into another (traditionally m
 ## Origin
 The conventional name for the primary version of a repository. Git also uses origin as a system alias for pushing and fetching data to and from the primary branch. For example, git push origin master, when run on a remote, will push the changes to the master branch of the primary repository database.
 
-## Pull/Pull Request
+## Pull Request
 If someone has changed code on a separate branch of a project and wants it to be reviewed to add to the master branch, that someone can put in a pull request. Pull requests ask the repo maintainers to review the commits made, and then, if acceptable, merge the changes upstream. A pull happens when adding the changes to the master branch.
 
 ## Push
@@ -59,3 +59,8 @@ Tags are used to define which portions of a project’s Git history is most impo
 
 ## Upstream
 While there is not necessarily a default “upstream” or “downstream” for Git projects, upstream can be considered where you push your Git changes — this is often the master branch of the project within the origin.
+
+# Other added terms
+
+## Pull
+When retrieving the latest changes, if available, in the checked out branch.
