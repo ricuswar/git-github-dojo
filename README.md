@@ -9,4 +9,5 @@ The can be found in the master branch, slides.pdf
 * Github permission levels for a user account repository, [link](https://help.github.com/en/articles/permission-levels-for-a-user-account-repository).
 * Github guides, [link](https://guides.github.com/).
 * Gitkraken git client, [link](https://www.gitkraken.com/git-client).
-# Git is amazing!
+
+# Git is amazing :nerd_face: !
