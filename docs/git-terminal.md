@@ -104,3 +104,40 @@ remote:
 To https://github.com/coenraadhuman/git-github-dojo.git
  * [new branch]      a-new-gh-branch -> a-new-gh-branch
 ```
+
+For more information in regards to branch management look this [site](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches).
+
+## Pull New Changes To Local Branch Copy
+
+To get this done we use `git pull`.
+
+```bash
+[coen@ArchLaptop git-github-dojo]$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+[coen@ArchLaptop git-github-dojo]$ git pull
+remote: Enumerating objects: 34, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 28 (delta 9), reused 15 (delta 1), pack-reused 0
+Unpacking objects: 100% (28/28), done.
+From https://github.com/coenraadhuman/git-github-dojo
+   33b9266..563f50f  master                   -> origin/master
+   df9b3d4..fee81af  gh-pages_angular-example -> origin/gh-pages_angular-example
+Updating 33b9266..563f50f
+Fast-forward
+ docs/git-terminal.md | 106 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ docs/gitkraken.md    |   1 +
+ 2 files changed, 107 insertions(+)
+ create mode 100644 docs/git-terminal.md
+ create mode 100644 docs/gitkraken.md
+[coen@ArchLaptop git-github-dojo]$ 
+```
+
+## Add Changes From Local Branch Copy to Repository
+
+We need more than one command to do this, namely `git add`, `git commit` and finally `git commit`.
+
+```bash
+
+```
