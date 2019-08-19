@@ -20,4 +20,8 @@ The can be found in the master branch, slides.pdf
 ## Gitkraken
 * Gitkraken git client, [link](https://www.gitkraken.com/git-client).
 
-# Git is amazing :nerd_face: !
+## Good Reads
+* Introductory Guide to Git with Visual Interface, [link](https://elc.github.io/posts/git-guide-with-visual-interface/)
+
+## Credit
+*All images that were used in the documentation or other material has a link to their original site, we take no credit for these items as they belong to others.*
