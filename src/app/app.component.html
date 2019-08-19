@@ -1,25 +1,74 @@
 <app-header></app-header>
 
-<h1 class="text-center">How to git</h1>
+<h1 class="text-center">Clone Repository</h1>
 <app-terminal [myContent]="[
-'i am happy',
-'you is also happy'
+'git clone https://github.com/coenraadhuman/git-github-dojo.git',
+'cd git-github-dojo/'
 ]">
 </app-terminal>
 <br><hr>
 
-<h1 class="text-center">How to git</h1>
+<h1 class="text-center">View Branches In Repository</h1>
 <app-terminal [myContent]="[
-'i am happy',
-'you is also happy'
+'git branch -a  '
 ]">
 </app-terminal>
 <br><hr>
 
-<h1 class="text-center">How to git</h1>
+<h1 class="text-center">Swith Banches</h1>
 <app-terminal [myContent]="[
-'i am happy',
-'you is also happy'
+'git checkout gh-pages'
+]">
+</app-terminal>
+<br><hr>
+
+<h1 class="text-center">View Branches On Local Machine</h1>
+<app-terminal [myContent]="[
+'git branch'
+]">
+</app-terminal>
+<br><hr>
+
+
+<h1 class="text-center">Create A New Branch Locally</h1>
+<app-terminal [myContent]="[
+'git branch a-new-gh-branch',
+'git branch -a'
+]">
+</app-terminal>
+<br><hr>
+
+<h1 class="text-center">Add The New Branch To The Repository</h1>
+<app-terminal [myContent]="[
+'git push origin a-new-gh-branch',
+'[enter username]',
+'[enter password]'
+]">
+</app-terminal>
+<br><hr>
+
+
+<h1 class="text-center">Pull New Changes To Local Branch Copy</h1>
+<app-terminal [myContent]="[
+'git checkout master',
+'git pull'
+]">
+</app-terminal>
+<br><hr>
+
+
+<h1 class="text-center">Add Changes From Local Branch Copy to Repository</h1>
+<app-terminal [myContent]="[
+'git checkout master',
+'git pull',
+'ls',
+'echo #  Git is amazing! >> README.md',
+'cat README.md ',
+'git add .',
+'git commit -m Git is awesome!',
+'git push origin',
+'[enter username]',
+'[enter password]'
 ]">
 </app-terminal>
 <br><hr>
