@@ -218,3 +218,6 @@ remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/coenraadhuman/git-github-dojo.git
    ed3bebf..76d10fa  master -> master
 ```
+
+* Now we can see the changes on Github :)
+![proof-of-concept](https://github.com/coenraadhuman/git-github-dojo/blob/master/images/git_is_amazing!.png)
