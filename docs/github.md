@@ -43,3 +43,6 @@ Insights give you a few stastical data regarding your repository, you can view t
 
 ## BRANCH PROTECTION
 
+![first-branch-protection-image](https://raw.githubusercontent.com/coenraadhuman/git-github-dojo/master/images/branch-protection.png)
+
+![second-branch-protection-image](https://raw.githubusercontent.com/coenraadhuman/git-github-dojo/master/images/branch-protection2.png)
