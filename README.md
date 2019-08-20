@@ -5,7 +5,7 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 
 # Workshop Programme
 
-*Please ensure that you have git and GitKraken on your Ubuntu system: see these [commands]().*
+*Please ensure that you have git and GitKraken on your Ubuntu system: see these [commands](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/ubuntu-install-commands.md).*
 
 * [Git Terms](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terms.md)
 * [Github](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/github.md)
