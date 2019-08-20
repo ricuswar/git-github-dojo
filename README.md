@@ -4,6 +4,9 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 ![awesome-image](https://elc.github.io/blog/images/git-guide-with-visual-interface/git-guide-with-visual-interface-headerimage.png)
 
 # Workshop Programme
+
+*Please ensure that you have git and GitKraken on your Ubuntu system: see these [commands]().*
+
 * [Git Terms](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terms.md)
 * [Github](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/github.md)
 * [Git Terminal](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terminal.md)
