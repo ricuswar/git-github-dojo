@@ -5,7 +5,7 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 
 # Workshop Programme
 * [Git Terms](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terms.md)
-* Github
+* [Github](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/github.md)
 * [Git Terminal](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terminal.md)
 * [GitKraken](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/gitkraken.md)
 
@@ -24,7 +24,7 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 * Gitkraken git client, [link](https://www.gitkraken.com/git-client).
 
 ## Good Reads
-* Introductory Guide to Git with Visual Interface, [link](https://elc.github.io/posts/git-guide-with-visual-interface/)
+* Introductory Guide to Git with Visual Interface, [link](https://elc.github.io/posts/git-guide-with-visual-interface/).
 
 ## Credit
 *All images that were used in the documentation or other material has a link to their original site, we take no credit for these items as they belong to others.*
