@@ -1,5 +1,7 @@
 # Ubuntu Terminal Install Commands
 
+If you are running a VM just install `git`, you can use GitKraken on Windows.
+
 ## Git
 
 ```bash
