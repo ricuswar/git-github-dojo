@@ -6,8 +6,8 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 # Workshop Programme
 * [Git Terms](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terms.md)
 * Github
-* Git Terminal
-* GitKraken
+* [Git Terminal](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terminal.md)
+* [GitKraken](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/gitkraken.md)
 
 # Resources
 
