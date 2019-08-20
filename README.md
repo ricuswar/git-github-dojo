@@ -3,8 +3,11 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 
 ![awesome-image](https://elc.github.io/blog/images/git-guide-with-visual-interface/git-guide-with-visual-interface-headerimage.png)
 
-# Workshop Presentation
-The can be found in the master branch, [slides.pdf](https://github.com/coenraadhuman/git-github-dojo/blob/master/slides.pdf)
+# Workshop Programme
+* Git Terms
+* Github
+* Git Terminal
+* GitKraken
 
 # Resources
 
