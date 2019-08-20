@@ -4,7 +4,7 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 ![awesome-image](https://elc.github.io/blog/images/git-guide-with-visual-interface/git-guide-with-visual-interface-headerimage.png)
 
 # Workshop Programme
-* Git Terms
+* [Git Terms](https://github.com/coenraadhuman/git-github-dojo/blob/master/docs/git-terms.md)
 * Github
 * Git Terminal
 * GitKraken
@@ -12,7 +12,7 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 # Resources
 
 ## Git
-* Git terms, [link](https://linuxacademy.com/blog/linux/git-terms-explained/).
+* Linux Academy: git terms explained, [link](https://linuxacademy.com/blog/linux/git-terms-explained/).
 
 ## Github
 * Github permission levels for a user account repository, [link](https://help.github.com/en/articles/permission-levels-for-a-user-account-repository).
