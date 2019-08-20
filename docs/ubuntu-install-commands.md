@@ -4,12 +4,14 @@
 
 ```bash
 sudo apt update
+sudo apt install git
 ```
 
 or
 
 ```bash
 sudo apt-get update
+sudo apt-get install git
 ```
 
 ## GitKraken
