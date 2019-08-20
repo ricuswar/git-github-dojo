@@ -38,3 +38,4 @@ Made by Estian
 =======
 no its not
 >>>>>>> Stashed changes
+i dont like this
