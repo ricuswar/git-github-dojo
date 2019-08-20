@@ -33,4 +33,8 @@ This is a workshop for NWU students on the basics of Git and Github, presented b
 *All images that were used in the documentation or other material has a link to their original site, we take no credit for these items as they belong to others.*
 My life is not as intressting as this
 ## This is the best comment :)
+<<<<<<< Updated upstream
 Made by Estian
+=======
+no its not
+>>>>>>> Stashed changes
