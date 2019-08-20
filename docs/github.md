@@ -25,7 +25,7 @@ How about hosting an [Angular CLI](https://cli.angular.io/) or [React](https://r
 
 Where do we start?
 
-
+![github-pages](https://raw.githubusercontent.com/coenraadhuman/git-github-dojo/master/images/ghpagessettings.png)
 
 ## [ISSUES](https://guides.github.com/features/issues/)
 
@@ -39,7 +39,7 @@ Where do we start?
 
 Insights give you a few stastical data regarding your repository, you can view this by clicking the insights button:
 
-![Insight-image]()
+![Insight-image](https://raw.githubusercontent.com/coenraadhuman/git-github-dojo/master/images/insights.png)
 
 ## BRANCH PROTECTION
 
