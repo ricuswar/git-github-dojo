@@ -33,7 +33,10 @@
 <h1 class="text-center">Create A New Branch Locally</h1>
 <app-terminal [myContent]="[
 'git branch a-new-gh-branch',
-'git branch -a'
+'git branch -a',
+'ls',
+'git checkout a-new-gh-branch',
+'ls'
 ]">
 </app-terminal>
 <br><hr>
@@ -44,16 +47,6 @@
 ]">
 </app-terminal>
 <br><hr>
-
-
-<h1 class="text-center">Pull New Changes To Local Branch Copy</h1>
-<app-terminal [myContent]="[
-'git checkout master',
-'git pull'
-]">
-</app-terminal>
-<br><hr>
-
 
 <h1 class="text-center">Add Changes From Local Branch Copy to Repository</h1>
 <app-terminal [myContent]="[
@@ -66,3 +59,14 @@
 ]">
 </app-terminal>
 <br><hr>
+
+<h1 class="text-center">Pull New Changes To Local Branch Copy</h1>
+<app-terminal [myContent]="[
+'git checkout master',
+'git pull'
+]">
+</app-terminal>
+<br><hr>
+
+
+
